@@ -1,14 +1,11 @@
-const app = {
-  name: "TaskFlow",
-  version: "1.0.0",
-  initialized: false
-};
-
-// Application core
 function init() {
   console.log("App starting...");
-  console.log("Loading modules...");
+  loadDashboard();
   console.log("Ready.");
 }
 
-init();
+function loadDashboard() {
+  console.log("Loading dashboard panels...");
+  const panels = ["tasks", "calendar", "stats"];
+  console.log("Panels loaded:", panels);
+}
