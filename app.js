@@ -7,8 +7,14 @@ const app = {
 // Application core
 function init() {
   console.log("App starting...");
-  console.log("Loading modules...");
+  authenticateUser();
   console.log("Ready.");
+}
+
+function authenticateUser() {
+  console.log("Checking credentials...");
+  const user = { name: "admin", role: "superuser" };
+  console.log("User logged in:", user.name);
 }
 
 init();
