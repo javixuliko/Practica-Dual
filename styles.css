@@ -5,8 +5,10 @@
 }
 
 body {
-  background-color: #1a1a2e;
-  color: #e0e0e0;
+  background-color: #ffffff;
+  color: #333333;
   font-family: Arial, sans-serif;
   font-size: 16px;
+  --dark-bg: #1a1a2e;
+  --dark-color: #e0e0e0;
 }
